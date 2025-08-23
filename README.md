@@ -11,12 +11,12 @@ These are the executables where the agent-based model of respiratory syncytial v
 5) If the model could not complete the simulation (this usually will mean a problem in the contents of the task file), the result file with contain the word "ERROR".
 6) If the model could complete the simulation, the result file will be composed of several vectors. The first one, "Problema", contains the values used to do the simulation. After that, there comes the simulation results with the following pattern:
 
-   ==> "Infecciosos unicos primerizos":[new infectious agents for each simulated day],
-   ==> "Susceptibles totales":[[total susceptible agents for each age from 0 to 100 years for day 1], [total susceptible agents for each age from 0 to 100 years for day 2], etc],
-* "Susceptibles totales => 0 y <= 5 meses":[total susceptible agents between 0 and 5 months for each simulated day],
-* "Susceptibles totales => 6 y <= 12 meses":[total susceptible agents between 6 and 12 months for each simulated day],
-* "Latentes totales":[[total latent agents for each age from 0 to 100 years for day 1], [total latent agents for each age from 0 to 100 years for day 2], etc],
-"Latentes totales => 0 y <= 5 meses":[total latent agents between 0 and 5 months for each simulated day],
+   * "Infecciosos unicos primerizos":[new infectious agents for each simulated day],
+   * "Susceptibles totales":[[total susceptible agents for each age from 0 to 100 years for day 1], [total susceptible agents for each age from 0 to 100 years for day 2], etc],
+   * "Susceptibles totales => 0 y <= 5 meses":[total susceptible agents between 0 and 5 months for each simulated day],
+   * "Susceptibles totales => 6 y <= 12 meses":[total susceptible agents between 6 and 12 months for each simulated day],
+   * "Latentes totales":[[total latent agents for each age from 0 to 100 years for day 1], [total latent agents for each age from 0 to 100 years for day 2], etc],
+   * "Latentes totales => 0 y <= 5 meses":[total latent agents between 0 and 5 months for each simulated day],
 "Latentes totales => 6 y <= 12 meses":[total latent agents between 6 and 12 months for each simulated day],
 "Infecciosos totales":[[total infectious agents for each age from 0 to 100 years for day 1], [total infectious agents for each age from 0 to 100 years for day 2], etc],
 "Infecciosos totales => 0 y <= 5 meses":[total infectious agents between 0 and 5 months for each simulated day],
