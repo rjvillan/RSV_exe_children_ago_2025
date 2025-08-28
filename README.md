@@ -5,11 +5,11 @@ These are the executables where the agent-based model of respiratory syncytial v
 
 # Instructions for use
 1) Put the model executable and the task file in the same folder. Ensure that the task file is named "problema.pro", which is the default file name.
-2) Execute the model. It will look for the detault task file name "problema.pro", and process it.
+2) Execute the model. It will look for the default task file name "problema.pro", and process it.
 3) Wait for the model to end the simulation.
-4) Once completed, there will be a result file named "xxx.sol", being xxx the task identificator assigned in the task file under the tag "Identificador".
+4) Once completed, there will be a result file named "xxx.sol", being xxx the task identifier assigned in the task file under the tag "Identificador".
 5) If the model could not complete the simulation (this usually will mean a problem in the contents of the task file), the result file with contain the word "ERROR".
-6) If the model could complete the simulation, the result file will be composed of several vectors. The first one, "Problema", contains the values used to do the simulation. After that, there comes the simulation results with the following pattern:
+6) If the model could complete the simulation, the result file will be composed of several vectors. The first one, "Problema", contains the values used to do the simulation. After that, there come the simulation results with the following pattern:
 
    * "Infecciosos unicos primerizos":[new infectious agents for each simulated day],
    * "Susceptibles totales":[[total susceptible agents for each age from 0 to 100 years for day 1], [total susceptible agents for each age from 0 to 100 years for day 2], etc],
@@ -21,7 +21,7 @@ These are the executables where the agent-based model of respiratory syncytial v
    * "Infecciosos totales":[[total infectious agents for each age from 0 to 100 years for day 1], [total infectious agents for each age from 0 to 100 years for day 2], etc],
    * "Infecciosos totales => 0 y <= 5 meses":[total infectious agents between 0 and 5 months for each simulated day],
    * "Infecciosos totales => 6 y <= 12 meses":[total infectious agents between 6 and 12 months for each simulated day],
-   * "Hospitalizados totales":[[total hopitalised agents for each age from 0 to 100 years for day 1], [total latent agents for each age from 0 to 100 years for day 2], etc],
+   * "Hospitalizados totales":[[total hospitalized agents for each age from 0 to 100 years for day 1], [total latent agents for each age from 0 to 100 years for day 2], etc],
    * "Hospitalizados totales => 0 y <= 5 meses":[total hospitalised agents between 0 and 5 months for each simulated day],
    * "Hospitalizados totales => 6 y <= 12 meses":[total hospitalised agents between 6 and 12 months for each simulated day],
    * "Recuperados totales":[[total recovered agents for each age from 0 to 100 years for day 1], [total recovered agents for each age from 0 to 100 years for day 2], etc],
@@ -42,3 +42,8 @@ These are the executables where the agent-based model of respiratory syncytial v
    * "Vacunados totales (menores+maternos+mayores) unicos":[[new vaccinated agents for each age from 0 to 100 years for day 1],[new vaccinated agents for each age from 0 to 100 years for day 2],etc],
    * "Vacunados totales (menores => 0 y <= 5 meses) unicos":[new vaccinated agents between 0 and 5 months for each simulated day],
    * "Vacunados totales (menores => 6 y <= 12 meses) unicos":[new vaccinated agents between 6 and 12 months for each simulated day]
+
+# Excel files. 
+The Excel files contain a summary of the obtained results for all the strategies simulated, separated into children younger than a year old, "Summary_results_strategies_younger_than_1.xlsx," and children 0-5 months old, "Summary_results_strategies_0_5.xlsx".
+
+
