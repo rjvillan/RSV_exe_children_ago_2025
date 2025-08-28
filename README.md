@@ -43,7 +43,7 @@ These are the executables where the agent-based model of respiratory syncytial v
    * "Vacunados totales (menores => 0 y <= 5 meses) unicos":[new vaccinated agents between 0 and 5 months for each simulated day],
    * "Vacunados totales (menores => 6 y <= 12 meses) unicos":[new vaccinated agents between 6 and 12 months for each simulated day]
 
-# Excel files. 
-The Excel files contain a summary of the obtained results for all the strategies simulated, separated into children younger than a year old, "Summary_results_strategies_younger_than_1.xlsx," and children 0-5 months old, "Summary_results_strategies_0_5.xlsx".
+# Excel files
+The Excel files contain a summary of the obtained results for all the strategies simulated, separated into children younger than a year old, "Summary_results_strategies_younger_than_1.xlsx" and children 0-5 months old, "Summary_results_strategies_0_5.xlsx".
 
 
